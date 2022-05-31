@@ -54,7 +54,7 @@ local data = {
    ["content"] = "New user data!",
    ["embeds"] = {
        {
-           ["title"] = "**Car Dealership**",
+           ["title"] = "**Universal**",
            ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
