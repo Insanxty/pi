@@ -1,4 +1,4 @@
-if game.PlaceId == 9049840490 then
+if game.PlaceId == 1554960397 then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/car%20dealership", true))()
    --this script below is just to see who uses my scripts for safety
    
