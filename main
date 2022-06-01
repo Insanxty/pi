@@ -1,9 +1,4 @@
-if game.PlaceId == 1554960397 then
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/car%20dealership", true))()
-   --this script below is just to see who uses my scripts for safety
-   
-   
-   local webhookcheck =
+local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
    secure_load and "Sentinel" or
    KRNL_LOADED and "Krnl" or
@@ -38,9 +33,17 @@ request(abcdef)
 
 
 
+
+if game.PlaceId == 1554960397 then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/car%20dealership", true))()
+  
+   
+   
+
+
+
+
 else
-
-
 
 --universal script
 
