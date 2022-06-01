@@ -93,7 +93,11 @@ request(abcdef)
 end
 
 
+if game.PlaceId == 7383940757 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/Big%20Arm%20Battle", true))()
 
+
+end
 
 
 
