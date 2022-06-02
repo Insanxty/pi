@@ -99,7 +99,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/Big%
 
 end
 
-if game.PlaceId == 7383940757 then
+if game.PlaceId == 9534337535 then
 
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
