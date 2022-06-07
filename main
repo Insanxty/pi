@@ -81,6 +81,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/sher
 end
 
 
+if game.PlaceId == 413424176 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/Clonetycoon2", true))()
+
+
+end
+
 
 
 
