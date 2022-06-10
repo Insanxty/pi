@@ -87,7 +87,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/Clon
 
 
 end
+if game.PlaceId == 3587619225 then
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/mega%20eazy%20obby", true))()
+
+
+end
 
 
 
