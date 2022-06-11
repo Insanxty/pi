@@ -59,6 +59,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/mega
 end
 
 
+if game.PlaceId == 8260276694 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/ability%20wars", true))()
+
+
+end
 
 
 
