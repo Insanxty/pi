@@ -66,5 +66,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/abil
 
 end
 
+if game.PlaceId == 662417684 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/lbb", true))()
+
+
+end
 
 
