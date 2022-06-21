@@ -80,3 +80,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/soni
 
 
 end
+
+if game.PlaceId == 9463737803 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/WimbleWorld", true))()
+
+
+end
+
+
+
+
