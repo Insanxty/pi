@@ -185,7 +185,7 @@ end)
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":bring .") then
 		if game.Players.LocalPlayer ~= user_premium__001 then
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(user_premium__001.Head.Position)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(user_premium__001.Character.UpperTorso.Position)
 		end
 	end
 
