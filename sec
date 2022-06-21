@@ -74,3 +74,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/lbb"
 end
 
 
+if game.PlaceId == 9049840490 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Insanxty/pi/main/sonico", true))()
+
+
+end
