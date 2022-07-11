@@ -46,7 +46,7 @@ wait(3)
 game:GetService("TweenService"):Create(ImageLabel, TweenInfo.new(1), { ImageTransparency = 1 }):Play()
 wait(0.5)
 game:GetService("TweenService"):Create(ImageLabel, TweenInfo.new(1), { Transparency = 1 }):Play()
-wait(0.5)
+wait(1)
 InsertedObjects:Destroy()
 
 
