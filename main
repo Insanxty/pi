@@ -8,6 +8,47 @@ _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 --m
 
+--
+-- this is below is for skids!
+-- its just the logo didn't feel like obsufucating
+
+-- Instances:
+
+local InsertedObjects = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+
+--Properties:
+
+InsertedObjects.Name = "InsertedObjects"
+InsertedObjects.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ImageLabel.Parent = InsertedObjects
+ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.499637097, 0, 0.222496927, 0)
+ImageLabel.Size = UDim2.new(0, 243, 0, 179)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=10190899512"
+ImageLabel.ImageTransparency = 1.000
+
+UICorner.CornerRadius = UDim.new(0, 18)
+UICorner.Parent = ImageLabel
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(60, 19, 77)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 71, 237))}
+UIGradient.Parent = ImageLabel
+
+game:GetService("TweenService"):Create(ImageLabel, TweenInfo.new(1), { Transparency = 0 }):Play()
+wait(0.5)
+game:GetService("TweenService"):Create(ImageLabel, TweenInfo.new(1), { ImageTransparency = 0 }):Play()
+wait(3)
+game:GetService("TweenService"):Create(ImageLabel, TweenInfo.new(1), { ImageTransparency = 1 }):Play()
+wait(0.5)
+game:GetService("TweenService"):Create(ImageLabel, TweenInfo.new(1), { Transparency = 1 }):Play()
+wait(0.5)
+InsertedObjects:Destroy()
+
 
 
 
